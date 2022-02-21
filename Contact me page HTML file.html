@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is an awsome web site">
+        <title>Sai Devesh's Web site</title>
+        <link rel="stylesheet" href="Contact me page CSS file.css">
+        <link rel="stylesheet" href="transitions.css">
+        <link rel="stylesheet" href="Home button CSS file.css">
+    </head>
+    <body>
+        <button onclick="location.href = 'index.html';" class="btn btn-gradient">Home</button>              
+        <h1 id="Contact_me">Contact me</h1>
+        <div class="wrapper">
+            <form class="contact_form" action="https://formsubmit.co/saidevesh2009@gmail.com" method="POST">
+              <input type="text" name="_honey" style="display: none;">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="field">
+                <input type="text" class="name" name="name" placeholder="Who are you?" autofocus/>
+                <label for="name">Name</label>
+              </div>
+              <div class="field">
+                <input type="text" class="email" name="email" placeholder="name@domain.tld" />
+                <label for="email">E-Mail</label>
+              </div>
+              <div class="field">
+                <textarea class="msg" rows="4" name="message" placeholder="You message..."></textarea>
+                <label for="msg">Message</label>
+              </div>
+              <input class="button" type="submit" value="Send"/>
+            </form>
+        </div>
+    </body>

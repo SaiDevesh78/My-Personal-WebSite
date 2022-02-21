@@ -1,0 +1,17 @@
+body{
+    font-family: Brush Script MT, Brush Script Std, cursiv;
+    color: aqua;
+}
+#About_me{
+    text-align: center;
+    font-size: 50px;
+}
+.About_me_para{
+    text-align: center;
+    font-size: 30px;
+}
+img{
+    border-radius: 99px;
+    height: 200px;
+    width: auto;
+}
