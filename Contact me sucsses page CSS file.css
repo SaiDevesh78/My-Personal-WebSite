@@ -1,8 +1,11 @@
 body{
-    text-align: center;
     font-family: Brush Script MT, Brush Script Std, cursiv;
     color: aqua; 
 }
+h1{
+    text-align: center;
+}
 p{
     font-size: larger;
+    text-align: center;
 }
